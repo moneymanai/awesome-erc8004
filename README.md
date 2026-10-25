@@ -584,7 +584,7 @@ Off-chain EigenTrust compute layer for ERC-8004. Graph-based trust scores with S
 
 **[Assay Protocol](https://assaylabs.xyz)** - Trust infrastructure for the agent economy. Stake-backed accountability, outcome-verified escrow, and algorithmic reputation (0-1000) for AI agents on Base. ERC-8004 read/write integration. 59 agents indexed. npm SDK: `@assaylabs/trust-check`. [Website](https://assaylabs.xyz) | [GitHub](https://github.com/Grandionn/assay-protocol) | [npm](https://www.npmjs.com/package/@assaylabs/trust-check)
 
-**[AgentPad](https://agentpad-base.surge.sh)** - Bonding-curve token launchpad on Base where launching (and, until a timelocked upgrade, buying on the curve) is gated on an agent identity (an ERC-8004 agentId from the Base Identity Registry, or an AgentPad pass); milestone votes are one ERC-8004 agentId, one vote. Contracts unaudited.
+**[AgentPad](https://agentpadbase.com)** - Bonding-curve token launchpad on Base where launching (and, until a timelocked upgrade, buying on the curve) is gated on an agent identity (an ERC-8004 agentId from the Base Identity Registry, or an AgentPad pass); milestone votes are one ERC-8004 agentId, one vote. Contracts unaudited.
 
 - [agentpad-mcp](https://github.com/moneymanai/agentpad-mcp) - MIT MCP server: reads plus unsigned transactions, including `build_register_erc8004_tx` to register an AgentPad agent with an existing ERC-8004 agentId. Never handles keys
 - Remote MCP endpoint: `https://agentpad.thevibehosting.com/mcp` - Streamable HTTP version of the same tools, no auth
